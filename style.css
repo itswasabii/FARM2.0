@@ -1,0 +1,315 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;1,9..40,100&family=Poppins:ital,wght@1,900&family=Rubik+Spray+Paint&display=swap');
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 15px;
+    font-style: italic;
+    font-style: bold;
+    
+}
+
+.navbar .logo {
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Rubik Spray Paint', system-ui;
+}
+
+.navbar nav {
+    float: none;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+
+
+
+.navbar a:hover {
+    font-size: 22px; 
+    color: #8cc496;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .navbar .logo {
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .navbar nav {
+        float: none;
+        text-align: center;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 0;
+        
+    }
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background-image: url('image/2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 319px 20px;
+    margin-bottom: 0px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ffffff; 
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.cta-button:hover {
+    background-color: #85b985; 
+    color: white;
+    font-size: 22px;
+}
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.text-box h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.text-box p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.text-box:hover {
+    background-color: rgba(0, 0, 0, 0.9); 
+    font-size: 24px;
+    
+}
+
+.about-us-section {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-bottom: 2px solid #555;
+}
+   
+
+
+.about-us-section h2 {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+    background-image: url('rectangle-background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.description-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto; /* Center the container */
+    font-family: 'DM Sans', sans-serif;
+    
+
+.description {
+    text-align: left;
+}
+
+.description p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+}
+
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.subscribe {
+    margin-top: 20px;
+}
+
+.subscribe p {
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 200px;
+}
+
+.subscribe button {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.fa {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 60px 20px;
+}
+
+.jumbotron h2 {
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.buttons button:hover {
+    background-color: #1f2c39;
+}
+
+.forecast-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.weather-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.forecast-item {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forecast-item p {
+    margin: 10px 0;
+}
+
+
+
+.agro-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.agro-result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.agro-result p {
+    margin: 10px 0;
+}
